@@ -1,0 +1,19 @@
+.car{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 20px;
+}
+
+.car-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.car-image img{
+    width: 400px;
+    box-shadow: 5px 5px rgba(0,0,0,0.1);
+}
